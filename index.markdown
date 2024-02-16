@@ -3,16 +3,18 @@ title: QQQ Home
 ---
 
 We're working on a robust end-to-end compiler for quantum programs to keep up with a 
-rapidly evolving hardware landscape.
+rapidly evolving hardware landscape. You can find our software at our [Github organization](https://github.com/qqq-wisc/).
 
 ## Projects
 
 ``queso`` - Automatically synthesize a circuit optimizer given a set of basis gates \
-Paper (
+[paper](files/pldi23.pdf)  |  [code](https://github.com/qqq-wisc/queso)
 
-``satmap`` - A MaxSAT-based solver for the Qubit Mapping and Routing Problem
+``satmap`` - Map qubits and route two qubit gates while minimizing SWAP operations \
+[paper](files/micro22.pdf)  |  [code](https://github.com/qqq-wisc/satmap)
 
-Benchmark Suite - A comp
+Benchmark Suite - Evaluate your compiler with quantum compiler with a comprehensive set of test circuits \
+[repo](https://github.com/qqq-wisc/quantum-compiler-benchmark-circuits)
 
 
 ## People
