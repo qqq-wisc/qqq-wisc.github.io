@@ -6,6 +6,11 @@ We're working on a robust end-to-end compiler for quantum programs to keep up wi
 rapidly evolving hardware landscape. You can find our software at our [Github organization](https://github.com/qqq-wisc/).
 
 ## Projects
+``wisq`` - A powerful compiler that integrates ``guoq`` (a circuit optimizer) and ``dascot`` (a fault-tolerant mapping and routing solver) \
+[code](https://github.com/qqq-wisc/wisq)
+
+``guoq`` - Unify rewrite rules and circuit resynthesis to optimize circuits \
+[paper](files/asplos25.pdf)  |  [code](https://github.com/qqq-wisc/guoq)
 
 ``queso`` - Automatically synthesize a circuit optimizer given a set of basis gates \
 [paper](files/pldi23.pdf)  |  [code](https://github.com/qqq-wisc/queso)
