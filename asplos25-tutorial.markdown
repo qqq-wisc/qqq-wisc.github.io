@@ -20,11 +20,11 @@ Then, we turn to *qubit mapping and routing*, the stage in which a compiler must
 
 |             |                                  |
 | ----------- | -------------------------------- |
-| 14:00-14:30 | Quantum computingFundamentals   |
+| 14:00-14:30 | Quantum Computing Fundamentals   |
 | 14:30-15:30 | Quantum Circuit Optimization     |
 | 15:30-16:00 | Coffee break                     |
 | 16:00-17:00 | Qubit Mapping and Routing        |
-| 17:00-17:30 | A Practical Tour of Our Compiler |
+| 17:00-17:30 | A Practical Tour of our Compiler |
 
 
 ## Organizers
