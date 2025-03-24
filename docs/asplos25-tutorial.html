@@ -10,22 +10,26 @@
     <body>
         <main role="main">
             <h1>Tutorial on Quantum Circuit Synthesis and Optimization at ASPLOS '25</h1>
-            <h1 id="overview">Overview</h1>
-<p>It is an exciting time in the world of quantum computing.</p>
+            <h2 id="overview">Overview</h2>
+<p>It is an exciting time in the world of quantum computing, as we continue to make rapid progress towards practical quantum computation. To realize the full potential of the devices we have today and on the horizon, we need optimizing compilers that convert abstract descriptions of quantum circuits to native device operations.
+However, quantum architecture deisgn remains in flux, with multiple competing hardware substrates and error-correction protocols.</p>
 <p>In this tutorial, we will introduce our efforts at the University of Wisconsin–Madison towards a flexible
-and performant compiler for this shifting landscape. No prior background in quantum computing is necessary!</p>
-<p>When: <strong>Sunday March 30th, 14:00-17:30</strong></p>
-<p>Where: <strong>New York I</strong> @ the Postillion Hotel and Convention Centre, Rotterdam, The Netherlands</p>
-<h1 id="schedule">Schedule</h1>
+and performant compiler for this shifting landscape. We will describe two of the central problems in
+compiling quantum circuits to target devices, and the algorithms that we have developed to tackle them.
+We begin with <em>quantum circuit optimization</em>, the problem of expressing a quantum circuit in as few native gates as possible.
+Then, we turn to <em>qubit mapping and routing</em>, the stage in which a compiler must lay out a circuit onto a device in a way that respects connectivity constraints. No prior background in quantum computing is necessary! By the end of the tutorial attendees will understand the passes that make up quantum circuit compilation, and how to use our compiler <code>wisq</code> to apply them.</p>
+<p><em>When</em>: <strong>Sunday March 30th, 14:00-17:30</strong></p>
+<p><em>Where</em>: <strong>New York I</strong> @ the Postillion Hotel and Convention Centre, Rotterdam, The Netherlands</p>
+<h2 id="schedule">Schedule</h2>
 <table>
 <tbody>
 <tr class="odd">
 <td>14:00-14:30</td>
-<td>Quantum Computing Fundamentals</td>
+<td>Quantum computingFundamentals</td>
 </tr>
 <tr class="even">
 <td>14:30-15:30</td>
-<td>Qubit Mapping and Routing</td>
+<td>Quantum Circuit Optimization</td>
 </tr>
 <tr class="odd">
 <td>15:30-16:00</td>
@@ -33,37 +37,23 @@ and performant compiler for this shifting landscape. No prior background in quan
 </tr>
 <tr class="even">
 <td>16:00-17:00</td>
-<td>Quantum Circuit Optimization</td>
+<td>Qubit Mapping and Routing</td>
 </tr>
 <tr class="odd">
 <td>17:00-17:30</td>
-<td>A tour of the compiler</td>
+<td>A Practical Tour of Our Compiler</td>
 </tr>
 </tbody>
 </table>
-<h1 id="organizers">Organizers</h1>
-<div style="display: flex; gap: 20px; align-items: center;">
-<div style="text-align: center;">
-<pre><code>&lt;img class=&quot;thumbnail&quot; src=&quot;files/abtin_photo.png&quot; alt=&quot;Abtin Molavi&quot; width=&quot;80&quot; style=&quot;border-radius: 10px;&quot;/&gt;
-&lt;br /&gt;
-&lt;a href=&quot;https://pages.cs.wisc.edu/~amolavi/&quot;&gt;Abtin Molavi&lt;/a&gt;</code></pre>
-</div>
-<div style="text-align: center;">
-<pre><code>&lt;img class=&quot;thumbnail&quot; src=&quot;files/amanda.png&quot; alt=&quot;Amanda Xu&quot; width=&quot;80&quot; style=&quot;border-radius: 10px;&quot;/&gt;
-&lt;br /&gt;
-&lt;a href=&quot;https://amandashoe.github.io/&quot;&gt;Amanda Xu&lt;/a&gt;</code></pre>
-</div>
-<div style="text-align: center;">
-<pre><code>&lt;img class=&quot;thumbnail&quot; src=&quot;files/Swamit_Tannu-e1703120794858-300x275.jpg&quot; alt=&quot;Swamit Tannu&quot; width=&quot;80&quot; style=&quot;border-radius: 10px;&quot;/&gt;
-&lt;br /&gt;
-&lt;a href=&quot;https://swamittannu.com/&quot;&gt;Swamit Tannu&lt;/a&gt;</code></pre>
-</div>
-<div style="text-align: center;">
-<pre><code>&lt;img class=&quot;thumbnail&quot; src=&quot;files/aws.jpg&quot; alt=&quot;Aws Albarghouthi&quot; width=&quot;80&quot; style=&quot;border-radius: 10px;&quot;/&gt;
-&lt;br /&gt;
-&lt;a href=&quot;https://pages.cs.wisc.edu/~aws/&quot;&gt;Aws Albarghouthi&lt;/a&gt;</code></pre>
-</div>
-</div>
+<h2 id="organizers">Organizers</h2>
+<p><img class="thumbnail" src="files/abtin_photo.png" alt="Abtin Molavi" width="80" style="border-radius: 10px;" /><br />
+<a href="https://pages.cs.wisc.edu/~amolavi/">Abtin Molavi</a></p>
+<p><img class="thumbnail" src="files/amanda.png" alt="Amanda Xu" width="80" style="border-radius: 10px;" /><br />
+<a href="https://amandashoe.github.io/">Amanda Xu</a></p>
+<p><img class="thumbnail" src="files/Swamit_Tannu-e1703120794858-300x275.jpg" alt="Swamit Tannu" width="80" style="border-radius: 10px;" /><br />
+<a href="https://swamittannu.com/">Swamit Tannu</a></p>
+<p><img class="thumbnail" src="files/aws.jpg" alt="Aws Albarghouthi" width="80" style="border-radius: 10px;" /><br />
+<a href="https://pages.cs.wisc.edu/~aws/">Aws Albarghouthi</a></p>
         </main>
 
     </body>
