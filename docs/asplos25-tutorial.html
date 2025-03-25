@@ -4,22 +4,25 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tutorial on Quantum Circuit Synthesis and Optimization at ASPLOS '25</title>
+        <title>Tutorial on Compiling Quantum Circuits at ASPLOS '25</title>
         <link rel="stylesheet" href="../css/default.css" />
     </head>
     <body>
         <main role="main">
-            <h1>Tutorial on Quantum Circuit Synthesis and Optimization at ASPLOS '25</h1>
+            <h1>Tutorial on Compiling Quantum Circuits at ASPLOS '25</h1>
             <h2 id="overview">Overview</h2>
 <p>It is an exciting time in the world of quantum computing, as we continue to make rapid progress towards practical quantum computation. To realize the full potential of the devices we have today and on the horizon, we need optimizing compilers that convert abstract descriptions of quantum circuits to native device operations.
-However, quantum architecture design remains in flux, with multiple competing hardware substrates and error-correction protocols.</p>
-<p>In this tutorial, we will introduce our efforts at the University of Wisconsin–Madison towards a flexible
-and performant compiler for this shifting landscape. We will describe two of the central problems in
-compiling quantum circuits to target devices, and the algorithms that we have developed to tackle them.
-We begin with <em>quantum-circuit optimization</em>, the problem of expressing a quantum circuit in as few native gates as possible.
-Then, we turn to <em>qubit mapping and routing</em>, the stage in which a compiler must lay out a circuit onto a device in a way that respects connectivity constraints. No prior background in quantum computing is necessary! By the end of the tutorial, attendees will understand the passes that make up quantum-circuit compilation, and how to use our compiler <code>wisq</code> to apply them.</p>
-<p><em>When</em>: <strong>Sunday March 30th, 14:00-17:30</strong></p>
-<p><em>Where</em>: <strong>New York I</strong> @ the Postillion Hotel and Convention Centre, Rotterdam, The Netherlands</p>
+However, quantum architecture design remains in flux, with multiple competing hardware substrates and error-correction protocols. In this tutorial, we will describe the key challenges in quantum circuit optimization and introduce our efforts at the University of Wisconsin–Madison towards a flexible
+and performant compiler for the shifting landscape.</p>
+<p>No prior background in quantum computing is necessary! After participating in the tutorial, attendees will be able to</p>
+<ul>
+<li>Define the fundamental units of quantum computation—qubits, gates, and circuits—and give a few examples of quantum algorithms.</li>
+<li>Describe the landscape of approaches for <em>quantum-circuit optimization</em>, the problem of expressing a quantum circuit in as few native gates as possible</li>
+<li>Explain <em>qubit mapping and routing</em>, the stage in which a compiler must lay out a circuit onto a device in a way that respects connectivity constraints</li>
+<li>Use our compiler, <code>wisq</code>, to apply the quantum-circuit optimization and qubit mapping and routing compiler passes.</li>
+</ul>
+<p>When: <strong>Sunday March 30th, 14:00-17:30 CEST</strong></p>
+<p>Where: <strong>New York I</strong> @ the Postillion Hotel and Convention Centre, Rotterdam, The Netherlands</p>
 <h2 id="schedule">Schedule</h2>
 <table>
 <tbody>
@@ -45,6 +48,20 @@ Then, we turn to <em>qubit mapping and routing</em>, the stage in which a compil
 </tr>
 </tbody>
 </table>
+<h2 id="resources">Resources</h2>
+<p>Here are some supplementary resources on the material we cover in the tutorial.</p>
+<p><a href="files/micro22.pdf">Qubit Mapping and Routing via MaxSAT</a></p>
+<p>In this paper (which appeared at MICRO ’22), we develop an algorithm for the qubit mapping and routing problem for near-term devices without error-correction.
+Our approach uses a reduction to MaxSAT and a “circuit slicing” technique to find better solutions than existing heuristic-based approaches while scaling better than existing constraint-based approaches.</p>
+<p><a href="files/oopsla25.pdf">Dependency-Aware Compilation for Quantum Surface Code Architectures</a></p>
+<p>In this paper (which will appear at OOPSLA ’25), we turn to the qubit mapping and routing problem for fault-tolerant quantum devices.
+We solve this problem by exploiting the dependency structure of circuit operations to formulate discrete optimization problems that can be approximated via simulated annealing.</p>
+<p><a href="files/pldi23.pdf">Synthesizing Quantum-Circuit Optimizers</a></p>
+<p>In this paper (which appeared at PLDI ’23), we introduce a technique for synthesizing a quantum-circuit optimizer given an arbitrary gate set for some device. Our approach uses a novel data structure to efficiently synthesize pairs of equivalent circuits, which can be used to rewrite circuits. For example, in 1.2 minutes, we can synthesize an optimizer targeting the IBM gate set that significantly outperforms leading hand-crafted optimizers.</p>
+<p><a href="files/asplos25.pdf">Optimizing Quantum Circuits, Fast and Slow</a><br />
+In this paper (which will appear at ASPLOS ’25), we unify two disparate techniques for optimizing quantum circuits — rewrite rules, which are fast standard optimizer passes, and unitary synthesis, which is slow, requiring a search through the space of circuits. We then introduce a radically simple, yet extremely effective, algorithm for scheduling these optimizations.</p>
+<p><a href="https://github.com/qqq-wisc/wisq">The <code>wisq</code> compiler</a></p>
+<p>Our open-source compiler implements our algorithms and provide a unified interface for both passes.</p>
 <h2 id="organizers">Organizers</h2>
 <div style="display: flex; gap: 75px; align-items: flex-end">
 <div style="text-align: center;">
