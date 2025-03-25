@@ -5,7 +5,7 @@ title: Tutorial on Compiling Quantum Circuits at ASPLOS '25
 ## Overview
 It is an exciting time in the world of quantum computing, as we continue to make rapid progress towards practical quantum computation. To realize the full potential of the devices we have today and on the horizon, we need optimizing compilers that convert abstract descriptions of quantum circuits to native device operations. 
 However, quantum architecture design remains in flux, with multiple competing hardware substrates and error-correction protocols. In this tutorial, we will describe the key challenges in quantum circuit optimization and introduce our efforts at the University of Wisconsin–Madison towards a flexible 
-and performant compiler for the shifting landscape.
+and performant compiler for the shifting hardware landscape.
 
 
 No prior background in quantum computing is necessary! After participating in the tutorial, attendees will be able to  
@@ -37,7 +37,7 @@ In this MICRO '22 paper, we develop an algorithm for the qubit mapping and routi
 Our approach uses a reduction to MaxSAT and a "circuit slicing" technique to find better solutions than existing heuristic-based approaches while scaling better than existing constraint-based approaches.
 
 [Dependency-Aware Compilation for Quantum Surface Code Architectures](files/oopsla25.pdf).
-In this paper OOPSLA '25 paper, we turn to the qubit mapping and routing problem for fault-tolerant quantum devices. 
+In this OOPSLA '25 paper, we turn to the qubit mapping and routing problem for fault-tolerant quantum devices. 
 We solve this problem by exploiting the dependency structure of circuit operations to formulate discrete optimization problems that can be approximated via simulated annealing.
 
 [Synthesizing Quantum-Circuit Optimizers](files/pldi23.pdf).

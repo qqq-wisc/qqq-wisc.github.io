@@ -13,7 +13,7 @@
             <h2 id="overview">Overview</h2>
 <p>It is an exciting time in the world of quantum computing, as we continue to make rapid progress towards practical quantum computation. To realize the full potential of the devices we have today and on the horizon, we need optimizing compilers that convert abstract descriptions of quantum circuits to native device operations.
 However, quantum architecture design remains in flux, with multiple competing hardware substrates and error-correction protocols. In this tutorial, we will describe the key challenges in quantum circuit optimization and introduce our efforts at the University of Wisconsin–Madison towards a flexible
-and performant compiler for the shifting landscape.</p>
+and performant compiler for the shifting hardware landscape.</p>
 <p>No prior background in quantum computing is necessary! After participating in the tutorial, attendees will be able to</p>
 <ul>
 <li>Define the fundamental units of quantum computation—qubits, gates, and circuits—and give a few examples of quantum algorithms.</li>
@@ -54,7 +54,7 @@ and performant compiler for the shifting landscape.</p>
 In this MICRO ’22 paper, we develop an algorithm for the qubit mapping and routing problem for near-term devices without error-correction.
 Our approach uses a reduction to MaxSAT and a “circuit slicing” technique to find better solutions than existing heuristic-based approaches while scaling better than existing constraint-based approaches.</p>
 <p><a href="files/oopsla25.pdf">Dependency-Aware Compilation for Quantum Surface Code Architectures</a>.
-In this paper OOPSLA ’25 paper, we turn to the qubit mapping and routing problem for fault-tolerant quantum devices.
+In this OOPSLA ’25 paper, we turn to the qubit mapping and routing problem for fault-tolerant quantum devices.
 We solve this problem by exploiting the dependency structure of circuit operations to formulate discrete optimization problems that can be approximated via simulated annealing.</p>
 <p><a href="files/pldi23.pdf">Synthesizing Quantum-Circuit Optimizers</a>.
 In this PLDI ’23 paper, we introduce a technique for synthesizing a quantum-circuit optimizer given an arbitrary gate set for some device. Our approach uses a novel data structure to efficiently synthesize pairs of equivalent circuits, which can be used to rewrite circuits. For example, in 1.2 minutes, we can synthesize an optimizer targeting the IBM gate set that significantly outperforms leading hand-crafted optimizers.</p>
