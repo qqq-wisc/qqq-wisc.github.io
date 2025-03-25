@@ -28,17 +28,16 @@ Then, we turn to *qubit mapping and routing*, the stage in which a compiler must
 
 
 ## Organizers
+<div style="display: flex; gap: 75px; align-items: flex-end">
+<div style="text-align: center;"><img class='thumbnail' src="files/abtin_photo.png" alt="Abtin Molavi" width="120"  style="border-radius: 10px;"/><p> <a href=https://pages.cs.wisc.edu/~amolavi> Abtin Molavi</a></p> </div>
 
-<img class='thumbnail' src="files/abtin_photo.png" alt="Abtin Molavi" width="80"  style="border-radius: 10px;"/>\
-[Abtin Molavi](https://pages.cs.wisc.edu/~amolavi/)
+<div style="text-align: center;"> <img class='thumbnail' src="files/amanda.png" alt="Amanda Xu" width="120" style="border-radius: 10px;"><p> <a href=https://amandashoe.github.io>Amanda Xu</a> </p> </div>
 
-<img class='thumbnail' src="files/amanda.png" alt="Amanda Xu" width="80"  style="border-radius: 10px;"/>\
-[Amanda Xu](https://amandashoe.github.io/)
+<div style="text-align: center;"> <img class='thumbnail' src="files/Swamit_Tannu.jpg" alt="Swamit Tannu" width="120" style="border-radius: 10px;"/><p> <a href=https://swamittannu.com>Swamit Tannu</a> </p> </div>
 
-
-<img class='thumbnail' src="files/Swamit_Tannu-e1703120794858-300x275.jpg" alt="Swamit Tannu" width="80"  style="border-radius: 10px;"/>\
-[Swamit Tannu](https://swamittannu.com/)
+<div style="text-align: center;">  <img class='thumbnail' src="files/aws.jpg" alt="Aws Albarghouthi" width="120"  style="border-radius: 10px;"/><p> <a href=https://pages.cs.wisc.edu/~aws>Aws Albarghouthi</a> </p> </div>
 
 
-<img class='thumbnail' src="files/aws.jpg" alt="Aws Albarghouthi" width="80"  style="border-radius: 10px;"/>\
-[Aws Albarghouthi](https://pages.cs.wisc.edu/~aws/)
+
+
+
