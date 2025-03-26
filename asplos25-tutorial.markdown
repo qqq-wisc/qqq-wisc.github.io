@@ -10,10 +10,10 @@ and performant compiler for the shifting hardware landscape.
 
 No prior background in quantum computing is necessary! After participating in the tutorial, attendees will be able to  
 
--  Define the fundamental units of quantum computation—qubits, gates, and circuits—and give a few examples of quantum algorithms.
+-  Define the fundamental units of quantum computation—qubits, gates, and circuits—and give a few examples of quantum algorithms
 -  Describe the landscape of approaches for *quantum-circuit optimization*, the problem of expressing a quantum circuit in as few native gates as possible
 -  Explain *qubit mapping and routing*, the stage in which a compiler must lay out a circuit onto a device in a way that respects connectivity constraints
--  Use our compiler, ``wisq``, to apply the quantum-circuit optimization and qubit mapping and routing compiler passes.
+-  Use our compiler, ``wisq``, to apply the quantum-circuit optimization and qubit mapping and routing compiler passes
 
 When: **Sunday March 30th, 14:00-17:30 CEST**
 
