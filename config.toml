@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://qqq-wisc.github.io/"
+taxonomies = [{name = "tags", feed = true}]
+theme = "tabi"
+title = "Project QQQ – Qool Quantum Qompilers"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+external_links_class = "external"
+
+
+[extra]
+# Put all your custom variables here
+menu = [
+    { name = "People", url = "people", trailing_slash = true }
+]

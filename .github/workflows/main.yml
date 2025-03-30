@@ -1,0 +1,51 @@
+name: Deploy Zola site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true   # Ensures submodules are fetched
+
+      - name: Debug Submodule Contents
+        run: |
+          echo "Checking theme folder structure..."
+          ls -R themes/
+          echo "Checking for theme.toml file..."
+          if [ ! -f themes/tabi/theme.toml ]; then
+            echo "❌ theme.toml not found!"
+            exit 1
+          fi
+
+      - name: Install Zola
+        run: |
+          curl -s -L https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz | tar xz
+          mv zola /usr/local/bin/zola
+
+      - name: Debug Zola Version
+        run: zola --version
+
+      - name: Build Zola Site
+        run: |
+          zola build || { echo "❌ Zola build failed!"; exit 1; }
+
+      - name: Debug Build Folder
+        run: |
+          echo "Checking generated /public folder contents..."
+          ls -R public/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
