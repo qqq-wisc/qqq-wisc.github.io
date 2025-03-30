@@ -19,7 +19,7 @@ Join us!
         {% end %}
     </div>
         <div id="image-container-home">
-            <img alt="ASD" id="banner-home-img" src="files/qqq.png" />
+            <img alt="qqq logo" id="banner-home-img" src="files/qqq.png" />
         </div>
 </div>
 
