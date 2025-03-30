@@ -1,8 +1,6 @@
-https://jaspervdj.be/hakyll/tutorials/01-installation.html
+https://www.getzola.org
 
 ```
-stack build personal-site
-stack init
-stack build
-stack exec site rebuild
+zola serve
+zola build
 ```
