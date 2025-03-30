@@ -21,13 +21,13 @@ Where: **New York I** @ the Postillion Hotel and Convention Centre, Rotterdam, T
 
 ## Schedule 
 
-|             |                                  |
-| ----------- | -------------------------------- |
-| 14:00-14:30 | Quantum Computing Fundamentals   |
-| 14:30-15:30 | Quantum-Circuit Optimization     |
-| 15:30-16:00 | Coffee break                     |
-| 16:00-17:00 | Qubit Mapping and Routing        |
-| 17:00-17:30 | A Practical Tour of our Compiler |
+|     |     |  |
+| --- | --- | --|
+| 14:00-14:30 | Quantum Computing Fundamentals   | [Slides](files/background-slides.pdf) |
+| 14:30-15:30 | Quantum-Circuit Optimization     | [Slides](files/circuit_optimization_asplos25_tutorial.pdf) |
+| 15:30-16:00 | Coffee break                     | |
+| 16:00-17:00 | Qubit Mapping and Routing        | [Slides](files/qmr-slides.pdf) |
+| 17:00-17:30 | A Practical Tour of our Compiler | |
 
 ## Resources
 Here are some supplementary resources on the material we cover in the tutorial.
