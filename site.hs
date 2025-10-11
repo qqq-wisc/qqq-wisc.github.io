@@ -17,7 +17,7 @@ main = hakyllWith config $ do
         compile copyFileCompiler
 
 
-    match (fromList ["index.markdown", "asplos25-tutorial.markdown"]) $ do
+    match (fromList ["index.markdown", "asplos25-tutorial.markdown", "splash25-tutorial.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
