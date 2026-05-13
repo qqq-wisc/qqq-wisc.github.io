@@ -18,6 +18,15 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+::selection {
+  background: #fbeaea;
+  color: var(--slate);
+}
+::-moz-selection {
+  background: #fbeaea;
+  color: var(--slate);
+}
+
 body {
   margin: 0;
   background: var(--ivory);
