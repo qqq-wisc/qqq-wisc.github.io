@@ -42,8 +42,6 @@ h1 {
   line-height: 1.15;
   letter-spacing: -0.015em;
   margin: 0 0 28px;
-  max-width: none;
-  white-space: nowrap;
 }
 
 h1 em {
@@ -84,6 +82,71 @@ code {
   padding: 2px 6px;
   border-radius: 4px;
   border: 1px solid var(--g200);
+}
+
+ul, ol {
+  margin: 0 0 1em;
+  padding-left: 1.4em;
+  color: var(--g700);
+  max-width: 64ch;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+strong {
+  color: var(--slate);
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.4em;
+  font-size: 0.95em;
+  color: var(--g700);
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--g200);
+  vertical-align: top;
+}
+
+thead th {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--g500);
+  font-weight: 600;
+  border-bottom: 1.5px solid var(--g300);
+}
+
+blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid var(--oat);
+  color: var(--g700);
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+hr {
+  border: 0;
+  border-top: 1.5px solid var(--g300);
+  margin: 2.5em 0;
 }
 
 @media (max-width: 600px) {
