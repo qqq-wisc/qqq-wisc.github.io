@@ -5,10 +5,13 @@ title: Project QQQ &ndash; Qool Quantum Qompilers
 Welcome to the Qool Quantum Qompilers project (QQQ) from the University of Wisconsin--Madison. We're working on a robust end-to-end compiler for quantum programs to keep up with a 
 rapidly evolving hardware landscape. You can find our software at our [Github organization](https://github.com/qqq-wisc/).
 
-We're giving a [tutorial](./splash25-tutorial.html) at SPLASH 2025 on our work!
-Join us!
-
 ## Projects
+``amaro`` - A DSL and compiler generator for qubit mapping and routing \
+[paper](https://arxiv.org/abs/2508.10781)  |  [code](https://github.com/qqq-wisc/qmr-compiler-generator)
+
+``tzap`` - A fast and scalable T gate optimizer \
+[code](https://github.com/qqq-wisc/tzap)
+
 ``wisq`` - A powerful compiler that integrates ``guoq`` (a circuit optimizer) and ``dascot`` (a fault-tolerant mapping and routing solver) \
 [code](https://github.com/qqq-wisc/wisq)
 
