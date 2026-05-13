@@ -1,5 +1,5 @@
 ---
-title: Project QQQ &ndash; Qool Quantum Qompilers
+title: <em>Project QQQ</em><br>Qool Quantum Qompilers
 ---
 
 Welcome to the Qool Quantum Qompilers project (QQQ) from the University of Wisconsin--Madison. We're working on a robust end-to-end compiler for quantum programs to keep up with a 
