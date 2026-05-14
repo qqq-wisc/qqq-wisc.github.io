@@ -10,6 +10,9 @@ rapidly evolving hardware landscape. You can find our software at our [Github or
 ``amaro`` - A DSL and compiler generator for qubit mapping and routing \
 [paper](https://arxiv.org/abs/2508.10781)  |  [code](https://github.com/qqq-wisc/qmr-compiler-generator)
 
+``QECLean`` - Formalization of quantum error correction in Lean \
+[code](https://github.com/Stavan-Jain/QECLean)
+
 ``tzap`` - A fast and scalable T gate optimizer \
 [code](https://github.com/qqq-wisc/tzap)
 
