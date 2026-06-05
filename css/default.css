@@ -2,8 +2,8 @@
   --ivory:  #FAF9F5;
   --paper:  #FFFFFF;
   --slate:  #141413;
-  --maroon: #8b1a1a;
-  --maroon-d: #6b1313;
+  --maroon: #b53e3e;
+  --maroon-d: #983030;
   --oat:    #E3DACC;
   --g100:   #F0EEE6;
   --g200:   #E6E3DA;
@@ -29,7 +29,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: var(--ivory);
+  background: var(--paper);
   color: var(--slate);
   font-family: var(--sans);
   line-height: 1.6;
